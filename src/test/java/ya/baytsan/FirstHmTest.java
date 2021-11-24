@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 //import javax.swing.*;
 
-import static com.codeborne.selenide.Condition.text;
+//import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 public class FirstHmTest {
@@ -29,7 +29,7 @@ public class FirstHmTest {
            // $("#submit").scrollTo().click();
             $(".custom-control-input").click();
           //  $("#output #lastName").shouldHave(text("some lastName"));
-              $("#output #email").shouldHave(text("aaa@aa.aa"));
+            //   $("#output #email").shouldHave(text("aaa@aa.aa"));
 
         }
 
