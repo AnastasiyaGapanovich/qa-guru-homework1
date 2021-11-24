@@ -6,10 +6,13 @@ repositories {
     mavenCentral()
 }
 
+compileTestJava{
+    options.encoding = 'UTF-8'
+}
 dependencies {
-    testImplementation('org.junit.jupiter:junit-jupiter:5.6.0')
-    implementation('com.codeborne:selenide:6.0.0')
-    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.1')
+    implementation('com.codeborne:selenide:6.0.3')
+    testRuntimeOnly("org.slf4j:slf4j-simpl:1.7.32")
+    testImplementation('org.junit.jupiter:junit-jupiter:5.8.1')
     testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.1')
 }
 
