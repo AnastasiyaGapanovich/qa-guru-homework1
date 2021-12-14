@@ -22,7 +22,6 @@ public class StudentsRegistrationForm {
   $("#lastName").setValue("Egorov");
   $("#userEmail").setValue("alex@egorov.com");
 
-  // $("[for=gender-radio-1]").click();
   $("#genterWrapper").$(byText("Male")).click();
   $("#userNumber").setValue("1263777443");
   $("#dateOfBirthInput").click();
@@ -35,7 +34,6 @@ public class StudentsRegistrationForm {
 
   $("#subjectsInput").setValue("maths").pressEnter();
   $("#hobbiesWrapper").$(byText("Sports")).click();
-  // $("#uploadPicture").uploadFile(new File("src/test/resources/img/1.png"));
   $("#uploadPicture").uploadFromClasspath("img/1.png");
   $("#currentAddress").setValue("gdhj").pressEnter().scrollTo();
   $("#state").click();
